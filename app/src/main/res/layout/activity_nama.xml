@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.khairennizamefid.khairennizamefid_1202150285_studycase4.Nama">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#CD5555"
+        android:text="List Nama Mahasiswa" />
+
+    <Button
+        android:id="@+id/button_startAsyncTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mulai AsyncTask"
+        android:background="#FFC1C1"
+        android:textAllCaps="false"/>
+    <ProgressBar
+        android:id="@+id/progressbar"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorAccent"></ListView>
+
+</LinearLayout>

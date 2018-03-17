@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF0066"
+    tools:context="com.example.khairennizamefid.khairennizamefid_1202150285_studycase4.MainActivity">
+
+    <Button
+        android:id="@+id/tmpl_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cari_gambar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:background="#FF66FF"
+        android:onClick="tampilNama"
+        android:text="Tampil Nama" />
+
+    <Button
+        android:id="@+id/cari_gambar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tmpl_nama"
+        android:layout_alignStart="@+id/tmpl_nama"
+        android:layout_centerVertical="true"
+        android:background="#FF66FF"
+        android:onClick="tampilGambar"
+        android:text="Cari Gambar" />
+
+</RelativeLayout>
